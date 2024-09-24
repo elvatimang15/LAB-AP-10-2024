@@ -20,7 +20,7 @@ sisi1 = float(input("Panjang sisi X: "))
 sisi2 = float(input("Panjang sisi Y: "))
 
 # Mencari sisi3
-sisi3 = (sisi1**1 + sisi2**2)**0.5
+sisi3 = (sisi1**2 + sisi2**2)**0.5
 
 # Luas segitiga
 Luas = 0.5 * sisi1 * sisi2
