@@ -3,7 +3,7 @@ def caesar_cipher(text, shift):
 
     for char in text:
         if char.isalpha():  # Memeriksa apakah karakter adalah huruf
-            if char.islower():  # Untuk huruf kecil
+            if char.islower(): 
                 new_char = chr((ord(char) - ord('a') + shift) % 26 + ord('a'))
             else:  # Untuk huruf besar
                 new_char = chr((ord(char) - ord('A') + shift) % 26 + ord('A'))

@@ -1,3 +1,4 @@
+# Mencari kata terpanjang
 def kata_terpanjang(teks):  
     daftar_kata = teks.split()  
     kata_panjang = max(daftar_kata, key=len)  
