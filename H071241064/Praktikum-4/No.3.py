@@ -24,5 +24,4 @@ def main():
     except ValueError:
         print("Input tidak Valid")
 
-if __name__ == "__main__":
-    main()
+main()
